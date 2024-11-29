@@ -1,0 +1,23 @@
+package com.fitness.app;
+
+import com.fitness.app.dao.UserDAO;
+import com.fitness.app.model.User;
+
+public class MainApp {
+    public static void main(String[] args) {
+        UserDAO userDAO = new UserDAO();
+
+        User user = new User();
+        user.setName("John Doe");
+        user.setEmail("johndoe@example.com");
+        user.setPassword("securepassword");
+        user.setRole("User");
+
+        try {
+            userDAO.createUser(user);
+            System.out.println("User created successfully!");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
