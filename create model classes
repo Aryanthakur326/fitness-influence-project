@@ -9,3 +9,18 @@ public class User {
 
     // Getters and Setters
 }
+package com.fitness.app.model;
+
+import java.util.Date;
+
+public class Workout {
+    private int id;
+    private int userId;
+    private String workoutType;
+    private int duration;
+    private String intensity;
+    private Date date;
+
+    // Getters and Setters
+}
+
