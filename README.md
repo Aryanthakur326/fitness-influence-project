@@ -11,6 +11,8 @@ Name the project OnlineFitnessTrackingApp.
 Set up a folder structure
 
 2.Define Project Structure
+
+
 3. Database Schema
 Create a file named schema.sql in the sql directory:
 
