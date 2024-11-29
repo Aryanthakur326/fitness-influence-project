@@ -1,0 +1,14 @@
+OnlineFitnessTrackingApp/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── com.fitness.app/
+│   │   │   │   ├── model/
+│   │   │   │   ├── dao/
+│   │   │   │   ├── service/
+│   │   │   │   ├── util/
+│   │   │   │   └── MainApp.java
+│   ├── resources/
+├── sql/
+│   ├── schema.sql
+├── pom.xml (for Maven or Gradle if applicable)
